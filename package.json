@@ -4,6 +4,7 @@
   "license": "MIT",
   "author": "polaris-chip",
   "version": "0.0.0",
+  
   "scripts": {
     "test": "web-test-runner --coverage",
     "test:watch": "web-test-runner --watch",
