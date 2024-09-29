@@ -19,20 +19,50 @@
     polaris-chip {
       margin: 16px;
     }
+    my-card {
+      margin: 16px;
+      font-family: 'Georgia';
+    }
   </style>
   <title>polaris-chip / my-card</title>
 </head>
 
 <body>
   <h1>polaris-chip</h1>
-  <!-- this is going to do whatever the tag's defaults are -->
-  <polaris-chip title="News of Record" link="https://psu.edu/"></polaris-chip>
-  <polaris-chip title="Faculty and Staff" link="https://hax.psu.edu"></polaris-chip>
-  <polaris-chip title="Sports are the only thing that matter"></polaris-chip>
-  <polaris-chip title="Grants and donations"></polaris-chip>
+  <my-card
+    image="https://wallpapers.com/images/hd/pennsylvania-state-university-pennstate-logo-ii2x5z4trdnu0bq4.jpg" 
+    link="https://psu.edu" 
+    title="Penn State Hax" 
+    description="For more, tap the button below."
+    buttonDesc="Details"></my-card>
 
-  <h1>my-card</h1>
-  <my-card></my-card>
+  <my-card 
+    image="https://www.orderdesk.com/wp-content/uploads/2022/05/logo-newegg-2048x1097.png" 
+    link="https://www.newegg.com/Catch-Our-September-Savings/EventSaleStore/ID-1132?N=100167523&cm_mmc=knc-msnkwless-search-broad-_-newaudience-_-desktop-internal-hard-drives-_-plp-feature-1&utm_source=bing&utm_medium=paid+search&utm_campaign=knc-msnkwless-search-broad-_-newaudience-_-desktop-internal-hard-drives-_-plp-feature-1&id0=Bing&id1=554245958&id2=1231454012509126&id3=76966013904471&id4=&id5=kwd-76966218236809:loc-190&id6=&id7=4120&id8=e&id9=o&id10=c&id11=&id12=e708f977ef97102358ea9f8e8935f625&id13=&id14=Y&id15=&id16=76966013904471&id17=Newegg&id18=&id19=&id20=&id21=&id22=&id23=&id24=&id25=&id26=76966218236809&id27=Y&id28=&id29=&id30=&id31=&id32=&id33=&id34=&msclkid=e708f977ef97102358ea9f8e8935f625" 
+    title="Build a PC" 
+    description="Grab the latest PC parts!"
+    buttonDesc="Details"></my-card>
+
+  <my-card 
+    image="https://cdn.wallpapersafari.com/42/51/FcbHId.jpg" 
+    link="https://www.lego.com/en-us?ef_id=d2cc564034b415137a6430b95325e5c8%3AG%3As&s_kwcid=AL%21790%2110%2182876065780876%2182876960171024&cmp=KAC-INI-BINGUS-BI-US_GL-EN-RE-PS-BUY-CREATE-MB_ALWAYS_ON-SHOP-BC-MM-WV-CIDNA00000-MB-CORE" 
+    title="Need Legos?"
+    description="Buy any legos you want!"
+    buttonDesc="Details"></my-card>
+
+  <my-card 
+    image="https://www.puertoricocartransport.com/news/wp-content/uploads/2014/11/castlepr-1024x768.jpg" 
+    link="https://www.viator.com/Puerto-Rico-tourism/d36-r3785131082-s43370549?m=33953&supag=3785131082&supsc=kwd-19618221637&supai=77240888807564&supdv=c&supnt=nt:o&suplp=4120&supli=154&supti=kwd-19618221637&tsem=true&supci=kwd-19618221637&supkw=puerto%20rico&msclkid=9238c7e7df001b473df3a11eb554333f" 
+    title="Puerto Rico" 
+    description="Visit Puerto Rico!"
+    buttonDesc="Details"></my-card>
+
+  <my-card 
+    image="https://logos-world.net/wp-content/uploads/2020/11/PlayStation-Logo1994-2009.png" 
+    link="https://direct.playstation.com/en-us/hardware/ps5?emcid=pa-co-421879&&msclkid=85c24985d40314d825852f7cbc3261f4&gclid=85c24985d40314d825852f7cbc3261f4&gclsrc=3p.ds" 
+    title="Playstation" 
+    description="Playstation is the best console"
+    buttonDesc="Details"></my-card>
 
   <!-- this is what is bringing in the definition for this tag -->
   <script type="module" src="./src/polaris-chip.js"></script>
